@@ -1,0 +1,74 @@
+ion-menu::part(backdrop) {
+    background-color: rgba(0, 255, 221, 0.5)
+}
+
+ion-menu::part(container){
+    border-radius: 0 20px 20px 0;
+    box-shadow:4px 0px 16px rgba(255,0,255,0.18);
+}
+
+.appHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: #262072;
+    padding: 10px;
+    color: white;
+}
+
+.avatar {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+
+.currentGroup{
+    color: rgb(139, 135, 135);
+}
+.currentDayBar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262072;
+}
+
+.currentDay{
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: #262072;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.currentDay h1{
+    font-weight: bold;
+}
+
+.currentMonthDays{
+    padding: 10px;
+    background-color: #262072;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.currentMonthDays::-webkit-scrollbar{
+    display: none;
+}
+
+.currentMonthSingleDay{
+    margin-right: 10px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
